@@ -79,7 +79,7 @@ function App() {
 
   return (
     <div>
-      <h1>🎉 Streamer</h1>
+      <h1>🎉 Node SSE Streaming</h1>
       <button onClick={handleSubmitBtnClicked}>
         {!isLoading ? "Start Stream" : "Streaming..."}
       </button>
